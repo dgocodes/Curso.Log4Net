@@ -13,7 +13,7 @@ class Program
         var logRepository = LogManager.GetRepository(Assembly.GetEntryAssembly());
         XmlConfigurator.Configure(logRepository, new FileInfo("log4net.config"));
 
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Olá Mundo");
 
         _log.Info("This is Info");
         _log.Error("This is Error");
